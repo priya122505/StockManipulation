@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+*.tmp
+*.bak
+
+# IDE and OS
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated model files
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Generated outputs
+outputs/
+runs/
+checkpoints/
